@@ -1,0 +1,47 @@
+:root {
+    /*   color variables */
+    --primary: #ffc107;
+    --primary-hover: #ffd451;
+    --primary-dark: #ffc107ce;
+    --gray100: #f0f7f8;
+    --gray200: #cfd8dc;
+  
+    /*   border radius */
+    --radius: 0.2rem;
+  }
+  
+  body {
+    font-family: Montserrat, sans-serif;
+    background: var(--gray100);
+    color: var(--primary);
+  }
+  
+  .nav-list {
+    background: white;
+    box-shadow: 0px 0px 10px var(--gray200);
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in;
+  }
+  
+  .nav-item a:hover {
+    color: var(--primary-dark);
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
