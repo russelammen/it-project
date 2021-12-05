@@ -1,3 +1,15 @@
+:root {
+  /*   color variables */
+  --primary: #ffc107;
+  --primary-hover: #ffd451;
+  --primary-dark: #ffc107ce;
+  --gray100: #f0f7f8;
+  --gray200: #cfd8dc;
+
+  /*   border radius */
+  --radius: 0.2rem;
+}
+
 body {
   font-family: Montserrat, sans-serif;
   background: var(--gray100);
@@ -6,7 +18,8 @@ body {
 
 
 .slidershow {
-  max-width: 1500px;
+  margin: 10px;
+  max-width: 1000%;
   height: auto;
   overflow: hidden;
   border-radius: 20px;
